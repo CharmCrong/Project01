@@ -8,7 +8,7 @@
 
 import UIKit
 
-class QuizViewController: UIViewController {
+class QuizViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var segMember: UISegmentedControl!
     @IBOutlet var txtDrum: UITextField!
@@ -35,10 +35,6 @@ class QuizViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-//    override func prepare(for segue:UIStoryboardSegue, sender: Any?) {
-//        let selectDestination = segue.destination as! SelectViewController
-//    }
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
@@ -57,7 +53,6 @@ class QuizViewController: UIViewController {
         let checkAnswer3: String = dateFormatter.string(from: self.pickerDebutDate.date)
         
         let checkAnswer4: String = segDebutSong.titleForSegment(at: segDebutSong.selectedSegmentIndex)!
-        
         
         if answer1 == checkAnswer1 {
             label1.text = "정답입니다. DAY6의 멤버는 5명입니다."
@@ -90,7 +85,6 @@ class QuizViewController: UIViewController {
             label4.text = "오답입니다. DAY6의 데뷔곡은 'Congratulations'입니다."
             label4.textColor = UIColor.red
         }
-
     }
     
 }
