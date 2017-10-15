@@ -11,13 +11,16 @@ import UIKit
 class SelectViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet var pickerSelect: UIPickerView!
     
+    
+    @IBOutlet var imgDay6: UIImageView!
+    
     let selectArray: [String] = ["Member", "Album"]
     var txtSelect: String!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        imgDay6.image = UIImage(named: "day1.jpg")
     }
     
     override func didReceiveMemoryWarning() {

@@ -47,8 +47,8 @@ class InfoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
             labelName2.text = "The Day"
             labelDate1.text = "발매일"
             labelDate2.text = "2015년 9월 7일"
-            labelPosition1.text = "수록곡"
-            labelPosition2.text = "Free하게\n이상하게 계속 이래\n(Title) Congratulations\n버릇이 됐어\n태양처럼\nColors"
+            labelPosition1.text = "타이틀곡"
+            labelPosition2.text = "Congratulations"
             imgMember.image = UIImage(named: "album1.jpg")
         }
     }
@@ -139,96 +139,96 @@ class InfoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
                 labelName2.text = "The Day"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2015년 9월 7일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "Free하게\n이상하게 계속 이래\n(Title) Congratulations\n버릇이 됐어\n태양처럼\nColors"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "Congratulations"
                 imgMember.image = UIImage(named: "album1.jpg")
             case "DAYDREAM":
                 labelName1.text = "앨범명"
                 labelName2.text = "DAYDREAM"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2016년 3월 30일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "First Time\nBlood\n(Title) 놓아 놓아 놓아\nSing Me\n바래\nHunt"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "놓아 놓아 놓아"
                 imgMember.image = UIImage(named: "album2.jpg")
             case "Every DAY6 January":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 January"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 1월 6일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) 아 왜(I Wait)\n겨울이 간다"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "아 왜(I Wait)"
                 imgMember.image = UIImage(named: "album3.jpg")
             case "Every DAY6 February":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 February"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 2월 6일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) 예뻤어\nMy Day"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "예뻤어"
                 imgMember.image = UIImage(named: "album4.jpg")
             case "Every DAY6 March":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 March"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 3월 6일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) 어떻게 말해\n그럴 텐데"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "어떻게 말해"
                 imgMember.image = UIImage(named: "album5.jpg")
             case "Every DAY6 April":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 April"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 4월 6일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) 장난 아닌데\nSay Wow"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "장난 아닌데"
                 imgMember.image = UIImage(named: "album6.jpg")
             case "Every DAY6 May":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 May"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 5월 8일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) DANCE DANCE\nMan in a movie"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "DANCE DANCE"
                 imgMember.image = UIImage(named: "album7.jpg")
             case "SUNRISE":
                 labelName1.text = "앨범명"
                 labelName2.text = "SUNRISE"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 6월 7일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "오늘은 내게\n(Title) 반듣시 웃는다\nMan in a movie\n아 왜(I Wait)\n어떻게 말해\n놓아 놓아 놓아(Rebooted Ver.)\n그럴 텐데\n겨울이 간다\n장난 아닌데\nSay Wow\nDANCE DANCE\nMy Day\n예뻤어\nCongratulations(Final Ver.)"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "반듣시 웃는다"
                 imgMember.image = UIImage(named: "album8.jpg")
             case "Every DAY6 July":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 July"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 7월 6일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) Hi Hello\nBe Lazy"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "Hi Hello"
                 imgMember.image = UIImage(named: "album9.jpg")
             case "Every DAY6 August":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 August"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 8월 7일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) 좋은 걸 뭐 어떡해\n놀래!"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "좋은 걸 뭐 어떡해"
                 imgMember.image = UIImage(named: "album10.jpg")
             case "Every DAY6 September":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 September"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 9월 6일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) I Loved You\n남겨둘게"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "I Loved You"
                 imgMember.image = UIImage(named: "album11.jpg")
             case "Every DAY6 October":
                 labelName1.text = "앨범명"
                 labelName2.text = "Every DAY6 October"
                 labelDate1.text = "발매일"
                 labelDate2.text = "2017년 9월 29일"
-                labelPosition1.text = "수록곡"
-                labelPosition2.text = "(Title) 그렇더라고요\n누군가 필요해"
+                labelPosition1.text = "타이틀곡"
+                labelPosition2.text = "그렇더라고요"
                 imgMember.image = UIImage(named: "album12.jpg")
             default:
                 break
